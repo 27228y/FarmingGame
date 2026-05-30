@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ba37c6715ad67a41ab957fe3cc470ee, type: 3}
+  m_Name: Blue Flower Seed
+  m_EditorClassIdentifier: 
+  itemName: Blue Flower Seed
+  price: 35
+  uiIcon: {fileID: 2087958690, guid: 5ec21560d638094428e895666346e89e, type: 3}
+  prefab: {fileID: 2010248119391824795, guid: a9786b1a13a89204a9188f32ab2e750e, type: 3}
+  isStackable: 1
+  maxStackSize: 9
+  itemColor: {r: 0.2905661, g: 0.1636687, b: 0.008223519, a: 1}
+  isSeed: 1
+  grownPlantPrefab: {fileID: 2010248119391824795, guid: a9786b1a13a89204a9188f32ab2e750e,
+    type: 3}
+  growthTime: 5

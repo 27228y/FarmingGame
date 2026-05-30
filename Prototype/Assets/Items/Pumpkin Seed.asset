@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ba37c6715ad67a41ab957fe3cc470ee, type: 3}
+  m_Name: Pumpkin Seed
+  m_EditorClassIdentifier: 
+  itemName: Pumpkin Seed
+  price: 20
+  uiIcon: {fileID: 1914337765, guid: 5ec21560d638094428e895666346e89e, type: 3}
+  prefab: {fileID: 2010248119391824795, guid: 29a3fd57a7445ad41811d6d8c382716a, type: 3}
+  isStackable: 1
+  maxStackSize: 9
+  itemColor: {r: 0.2905661, g: 0.1636687, b: 0.008223519, a: 1}
+  isSeed: 1
+  grownPlantPrefab: {fileID: 2010248119391824795, guid: e3c5e6b36e2ba4b41a45d3e1fda99ee1,
+    type: 3}
+  growthTime: 5
