@@ -1,6 +1,8 @@
 # FarmingGame
 The final project game for NKKM
 
+![Game Screenshot](Documentation/screenshot.png)
+
 ### The Goal
 
 Save all 4 sick villagers before their health bars hit 0%. If any villager dies, it is Game Over.
