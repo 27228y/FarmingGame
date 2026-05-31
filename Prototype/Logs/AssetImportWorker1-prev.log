@@ -15,7 +15,7 @@ C:/Projects/Unity/FarmingGame/Prototype
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-60739
+49798
 Successfully changed project path to: C:/Projects/Unity/FarmingGame/Prototype
 C:/Projects/Unity/FarmingGame/Prototype
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,15 +49,15 @@ C:/Projects/Unity/FarmingGame/Prototype
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23624]  Target information:
+Player connection [16012]  Target information:
 
-Player connection [23624]  * "[IP] 192.168.0.157 [Port] 0 [Flags] 2 [Guid] 2971961304 [EditorId] 2971961304 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VRGIVBT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [16012]  * "[IP] 192.168.0.157 [Port] 0 [Flags] 2 [Guid] 1984702676 [EditorId] 1984702676 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VRGIVBT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [23624] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [23624] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16012] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16012] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 10.37 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 10.02 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.62f3 (96770f904ca7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Resources/UnitySubsystems
@@ -73,33 +73,33 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005019 seconds.
-- Loaded All Assemblies, in  0.241 seconds
+Registered in 0.005023 seconds.
+- Loaded All Assemblies, in  0.236 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.176 seconds
-Domain Reload Profiling: 416ms
-	BeginReloadAssembly (72ms)
+Domain Reload Profiling: 412ms
+	BeginReloadAssembly (71ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (23ms)
+	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (99ms)
-		LoadAssemblies (71ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (94ms)
+		LoadAssemblies (70ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (97ms)
-			TypeCache.Refresh (96ms)
-				TypeCache.ScanAssembly (85ms)
+		AnalyzeDomain (92ms)
+			TypeCache.Refresh (91ms)
+				TypeCache.ScanAssembly (83ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
 	FinalizeReload (176ms)
@@ -110,9 +110,9 @@ Domain Reload Profiling: 416ms
 			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (97ms)
-			ProcessInitializeOnLoadMethodAttributes (32ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (98ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,286 +121,52 @@ Domain Reload Profiling: 416ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.531 seconds
+- Loaded All Assemblies, in  0.486 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.525 seconds
-Domain Reload Profiling: 1054ms
-	BeginReloadAssembly (100ms)
+- Finished resetting the current domain, in  0.552 seconds
+Domain Reload Profiling: 1036ms
+	BeginReloadAssembly (94ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (17ms)
 	RebuildCommonClasses (21ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (373ms)
-		LoadAssemblies (296ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (332ms)
+		LoadAssemblies (250ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (135ms)
-			TypeCache.Refresh (111ms)
-				TypeCache.ScanAssembly (102ms)
-			ScanForSourceGeneratedMonoScriptInfo (17ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (525ms)
+			TypeCache.Refresh (109ms)
+				TypeCache.ScanAssembly (99ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (553ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (421ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (78ms)
-			ProcessInitializeOnLoadAttributes (277ms)
-			ProcessInitializeOnLoadMethodAttributes (52ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 4.74 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5517 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (350.6 KB). Loaded Objects now: 6014.
-Memory consumption went from 236.3 MB to 235.9 MB.
-Total: 2.865300 ms (FindLiveObjects: 0.318300 ms CreateObjectMapping: 0.158200 ms MarkObjects: 2.244400 ms  DeleteObjects: 0.143700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 351088.787605 seconds.
-  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png
-  artifactKey: Guid(8da095e39e9b4df488dfd436f81116d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png using Guid(8da095e39e9b4df488dfd436f81116d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'bca8b2803b7d45d779771cc691c8b615') in 0.044447 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 2.566568 seconds.
-  path: Assets/Imported/Map Tiles (Kenney)/Isometric/crops_leafsStageB_SE.png
-  artifactKey: Guid(97559dbc6699fe94ca51506fd3660e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Map Tiles (Kenney)/Isometric/crops_leafsStageB_SE.png using Guid(97559dbc6699fe94ca51506fd3660e60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '28dc973484c5401791361a3cc1afbb37') in 0.009234 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.309137 seconds.
-  path: Assets/Imported/Map Tiles (Kenney)/Side/crops_leafsStageA.png
-  artifactKey: Guid(c465c99a5cba1d34f86989648ede2945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Map Tiles (Kenney)/Side/crops_leafsStageA.png using Guid(c465c99a5cba1d34f86989648ede2945) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '4a05c530eb573c5f5659f98ff5d27ba4') in 0.007973 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Imported/Map Tiles (Kenney)/Isometric/crops_leafsStageA_NW.png
-  artifactKey: Guid(1a8fb041da5edaa44b410ddb51820b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Map Tiles (Kenney)/Isometric/crops_leafsStageA_NW.png using Guid(1a8fb041da5edaa44b410ddb51820b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '28be06c22af92a7e1926076b049d9cf5') in 0.008556 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Imported/Map Tiles (Kenney)/Isometric/crops_leafsStageA_SW.png
-  artifactKey: Guid(8165efe2bccbce441aed236d4b5b3238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Map Tiles (Kenney)/Isometric/crops_leafsStageA_SW.png using Guid(8165efe2bccbce441aed236d4b5b3238) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e3250ff226febed176f32362861fc90a') in 0.010641 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Imported/Map Tiles (Kenney)/Side/crops_leafsStageB.png
-  artifactKey: Guid(fa3b3bc17b1ddaf4393664d06f911b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Map Tiles (Kenney)/Side/crops_leafsStageB.png using Guid(fa3b3bc17b1ddaf4393664d06f911b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a2d135d4188aeaa400901d871a618245') in 0.007897 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.014263 seconds.
-  path: Assets/Imported/Map Tiles (Kenney)/Isometric/crops_dirtRowEnd_NW.png
-  artifactKey: Guid(022025b24bd0ad74395de9b8d6203d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Map Tiles (Kenney)/Isometric/crops_dirtRowEnd_NW.png using Guid(022025b24bd0ad74395de9b8d6203d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd5d2fe555d31b3f9b7b3ed27a64ffb12') in 0.007920 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Imported/Map Tiles (Kenney)/Isometric/crops_dirtRowEnd_SW.png
-  artifactKey: Guid(cd3e50f264f20a746ab0b5a1e64bb9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Map Tiles (Kenney)/Isometric/crops_dirtRowEnd_SW.png using Guid(cd3e50f264f20a746ab0b5a1e64bb9b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '943425efa62585b6464311140c46af60') in 0.009097 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Imported/Map Tiles (Kenney)/Isometric/crops_dirtSingle_NW.png
-  artifactKey: Guid(80270bb5dc8c29248bd8eb202884f1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Map Tiles (Kenney)/Isometric/crops_dirtSingle_NW.png using Guid(80270bb5dc8c29248bd8eb202884f1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ec64f9c1cc241ab732c0ae0bf1cffe9f') in 0.009645 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Imported/Map Tiles (Kenney)/Isometric/crops_dirtSingle_SE.png
-  artifactKey: Guid(9e0ecd9da9eabdb4bbb8f7731ed1e82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Map Tiles (Kenney)/Isometric/crops_dirtSingle_SE.png using Guid(9e0ecd9da9eabdb4bbb8f7731ed1e82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b113fd2fe1f3491df7aaa45cc802b387') in 0.013750 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 14.200974 seconds.
-  path: Assets/Imported/Cursor (Kenney)/PNG/Outline/Double/progress_empty.png
-  artifactKey: Guid(efe9301cea689814d8a421e39678a23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Cursor (Kenney)/PNG/Outline/Double/progress_empty.png using Guid(efe9301cea689814d8a421e39678a23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '958666dc8b8b680477ec6dab3d114764') in 0.008553 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Imported/Cursor (Kenney)/PNG/Outline/Double/resize_a_cross.png
-  artifactKey: Guid(8052c8c26c00c23478d0c1f3e15f2c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Cursor (Kenney)/PNG/Outline/Double/resize_a_cross.png using Guid(8052c8c26c00c23478d0c1f3e15f2c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '22fc0ee4155c3b111ad02e1f7d4e3dbc') in 0.007820 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.006266 seconds.
-  path: Assets/Imported/Cursor (Kenney)/PNG/Outline/Double/resize_a_horizontal.png
-  artifactKey: Guid(7f23220cd1b4b9249b9ef144869d539a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Cursor (Kenney)/PNG/Outline/Double/resize_a_horizontal.png using Guid(7f23220cd1b4b9249b9ef144869d539a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2a16019311fdf8ff228c496a847b1eec') in 0.009729 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Imported/Cursor (Kenney)/PNG/Outline/Double/resize_a_vertical.png
-  artifactKey: Guid(f5993adde1817784d9761ed286ceae52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Cursor (Kenney)/PNG/Outline/Double/resize_a_vertical.png using Guid(f5993adde1817784d9761ed286ceae52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5f343027dd55d62711c9faa7ee2f5874') in 0.009606 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Imported/Cursor (Kenney)/PNG/Outline/Double/resize_b_diagonal_mirror.png
-  artifactKey: Guid(0d4a196b757a7fb44b8b5fca5141f95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Cursor (Kenney)/PNG/Outline/Double/resize_b_diagonal_mirror.png using Guid(0d4a196b757a7fb44b8b5fca5141f95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a94abb0f068c40dc09fa925fd93ebefb') in 0.009487 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Imported/Cursor (Kenney)/PNG/Outline/Double/resize_b_cross.png
-  artifactKey: Guid(c3f35e691dd1ea6468659a917496df56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Cursor (Kenney)/PNG/Outline/Double/resize_b_cross.png using Guid(c3f35e691dd1ea6468659a917496df56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '63fbcb104332b28a7c037a61f9fea7a2') in 0.009461 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Imported/Cursor (Kenney)/PNG/Outline/Double/resize_b_diagonal.png
-  artifactKey: Guid(9cd4b1ec18e9eb74cab8a73f018207d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Imported/Cursor (Kenney)/PNG/Outline/Double/resize_b_diagonal.png using Guid(9cd4b1ec18e9eb74cab8a73f018207d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '0eb6fd30dd21b5da6240efb58aceb4e7') in 0.009910 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.358 seconds
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.907 seconds
-Domain Reload Profiling: 1264ms
-	BeginReloadAssembly (108ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (20ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (199ms)
-		LoadAssemblies (238ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (14ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (908ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (377ms)
+		SetupLoadedEditorAssemblies (445ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (82ms)
-			ProcessInitializeOnLoadAttributes (233ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (293ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 4.60 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 5.71 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5349 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (317.5 KB). Loaded Objects now: 6026.
-Memory consumption went from 206.0 MB to 205.7 MB.
-Total: 3.120200 ms (FindLiveObjects: 0.340600 ms CreateObjectMapping: 0.087600 ms MarkObjects: 2.582200 ms  DeleteObjects: 0.109300 ms)
+Unloading 5517 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (350.0 KB). Loaded Objects now: 6014.
+Memory consumption went from 236.3 MB to 236.0 MB.
+Total: 3.216300 ms (FindLiveObjects: 0.352400 ms CreateObjectMapping: 0.098200 ms MarkObjects: 2.620800 ms  DeleteObjects: 0.144300 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
@@ -416,30 +182,571 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.55 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3 unused Assets / (291.2 KB). Loaded Objects now: 6025.
-Memory consumption went from 123.1 MB to 122.8 MB.
-Total: 2.722000 ms (FindLiveObjects: 0.358900 ms CreateObjectMapping: 0.184800 ms MarkObjects: 2.076400 ms  DeleteObjects: 0.101400 ms)
+Received Import Request.
+  Time since last request: 413452.741178 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_GrassPlant_03.prefab
+  artifactKey: Guid(5eacbcac5b6782b4a9bd8b3824ec2e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_GrassPlant_03.prefab using Guid(5eacbcac5b6782b4a9bd8b3824ec2e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0a64d9b4009aaf8f4e12ebb2878f18cf') in 0.208055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_GrassPlant_02.prefab
+  artifactKey: Guid(729ab502b328ed647a983caa6fa634f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_GrassPlant_02.prefab using Guid(729ab502b328ed647a983caa6fa634f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7ef95655af4f2368e1df54e3ece9dee9') in 0.013635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_MetalFence_01.prefab
+  artifactKey: Guid(5274874475fde154fb9568e87c5dc0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_MetalFence_01.prefab using Guid(5274874475fde154fb9568e87c5dc0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd849e41001b3b71452a04937e4c277eb') in 0.011978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_WoodFence_05.prefab
+  artifactKey: Guid(df1c59486edbb164993afb23835953e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_WoodFence_05.prefab using Guid(df1c59486edbb164993afb23835953e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '44a6db3f25beed35fa1336439c03519d') in 0.012519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_WaterLand_07.prefab
+  artifactKey: Guid(3e982c09c6eebc0469899c79ac5d243f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_WaterLand_07.prefab using Guid(3e982c09c6eebc0469899c79ac5d243f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '96325a6f6e663f0da102e9ffce5a3a1e') in 0.012426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/food_Eggplant.prefab
+  artifactKey: Guid(fed744b0018f8bc469a10c5ac2590ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/food_Eggplant.prefab using Guid(fed744b0018f8bc469a10c5ac2590ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '94eb236898745bd82ae089f12fad091e') in 0.012512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_Well_01.prefab
+  artifactKey: Guid(12117dade10afc44babaa7859bf5a8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_Well_01.prefab using Guid(12117dade10afc44babaa7859bf5a8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b45205e2039d7838401684ec716d6c1b') in 0.012599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Bld_Outhouses.prefab
+  artifactKey: Guid(72951464967d60240800936aa1dfea37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Bld_Outhouses.prefab using Guid(72951464967d60240800936aa1dfea37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '033cb83354f92712840703c85da5d6a8') in 0.012469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_FarmLand_07.prefab
+  artifactKey: Guid(40064c7d9dd18bd4782885e7109c4fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_FarmLand_07.prefab using Guid(40064c7d9dd18bd4782885e7109c4fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e8793109e3557bd3f6b3280972a93f26') in 0.011596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_GrassLand_Stright.prefab
+  artifactKey: Guid(dee380977b357bd49add80b2225d8bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_GrassLand_Stright.prefab using Guid(dee380977b357bd49add80b2225d8bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a52244f9c13d019837d7e9b1ba1a9844') in 0.014094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_WaterLand_05.prefab
+  artifactKey: Guid(afee2f5a75b8c5e4688609d0ad0be9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_WaterLand_05.prefab using Guid(afee2f5a75b8c5e4688609d0ad0be9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f7065706d5cd7a26c6741dd46c5fcb2b') in 0.011732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_FarmLand_03.prefab
+  artifactKey: Guid(5034b1a699a5fe54b949e0356b822009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_FarmLand_03.prefab using Guid(5034b1a699a5fe54b949e0356b822009) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5caccb68e042ca25545a6f865c936cf5') in 0.011658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/food_Onion.prefab
+  artifactKey: Guid(f7e424c0de8d66249bbc114fb33fb246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/food_Onion.prefab using Guid(f7e424c0de8d66249bbc114fb33fb246) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '71bf63ca0d623e7725ac79a7381709a4') in 0.013212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Bld_FarmMill_01.prefab
+  artifactKey: Guid(6c20b91f6f25ebb499766bb0be6b5f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Bld_FarmMill_01.prefab using Guid(6c20b91f6f25ebb499766bb0be6b5f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f03ad53020b793dea90aaacff0742914') in 0.013207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_FarmLand_04.prefab
+  artifactKey: Guid(126f808c06b20cf42a964b812bf3e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_FarmLand_04.prefab using Guid(126f808c06b20cf42a964b812bf3e6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1ffb06c2760502906dbf004a94b70d5f') in 0.012152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/food_Mango.prefab
+  artifactKey: Guid(1503d852bb214354ebd5463ce20131e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/food_Mango.prefab using Guid(1503d852bb214354ebd5463ce20131e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cb58dc378e3a94290e5b2d8412b71a7c') in 0.012309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_Tree_04.prefab
+  artifactKey: Guid(e793f57831947ae4fa0852191bea53df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_Tree_04.prefab using Guid(e793f57831947ae4fa0852191bea53df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '31682d824b600cf01a5b43e19976bbad') in 0.011978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/food_Lemon.prefab
+  artifactKey: Guid(250717b00009fa3498cf6e51077625d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/food_Lemon.prefab using Guid(250717b00009fa3498cf6e51077625d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b6dc74a60eebd5915e8a2240da28cdc3') in 0.011237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_FarmLand_10_Watered.prefab
+  artifactKey: Guid(132c3d8ba6925d342bfa6107a242fca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_FarmLand_10_Watered.prefab using Guid(132c3d8ba6925d342bfa6107a242fca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '40a6e0be5496c384aaac722c258f75d3') in 0.013698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_WaterLand_01.prefab
+  artifactKey: Guid(65cecbfc6240d874398f912e65c76d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_WaterLand_01.prefab using Guid(65cecbfc6240d874398f912e65c76d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '96febe17e622078de7eb25ae6c7627ad') in 0.012039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_Tree_03.prefab
+  artifactKey: Guid(b214a049616de1a4badde43d2a617311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_Tree_03.prefab using Guid(b214a049616de1a4badde43d2a617311) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e050c9cba3662d32e4631ca51730343c') in 0.012650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Bld_GreenMouse.prefab
+  artifactKey: Guid(0919f6373d0ba3c42898d72b84b02b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Bld_GreenMouse.prefab using Guid(0919f6373d0ba3c42898d72b84b02b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'afcfbbfd0b6e429cab58476cf9a3d7a1') in 0.011159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_Tree_06.prefab
+  artifactKey: Guid(51633e8f8672ebb4ca80eb935ab9bf7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_Tree_06.prefab using Guid(51633e8f8672ebb4ca80eb935ab9bf7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '71c5eee8d848d2f97f593be6b1afe5a5') in 0.013722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_GrassPlant_06.prefab
+  artifactKey: Guid(d6f0b21eeb5b4f141b4cae0de89e81a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_GrassPlant_06.prefab using Guid(d6f0b21eeb5b4f141b4cae0de89e81a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6d12fc1efd972a7dd51714b3a78853c5') in 0.011582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_FarmLand_04_Watered.prefab
+  artifactKey: Guid(68b33c43d9e241c469afcf57b907ff54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_FarmLand_04_Watered.prefab using Guid(68b33c43d9e241c469afcf57b907ff54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '90e0023d35842b00bb346864696f8b21') in 0.013277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_WoodFence_03.prefab
+  artifactKey: Guid(eb71626052cc9b04f9c433a2655b99d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_WoodFence_03.prefab using Guid(eb71626052cc9b04f9c433a2655b99d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '45be2cd270d141c6a01d78e8136f3c22') in 0.012213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_Bush_01.prefab
+  artifactKey: Guid(541b08bc544cf124daf4a447f2d514f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_Bush_01.prefab using Guid(541b08bc544cf124daf4a447f2d514f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6c71cf89c7368cfb5e56876617c2eb11') in 0.012855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Bld_FarmMill_02.prefab
+  artifactKey: Guid(a42676f730c2a654aa6040c7d4bf15ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Bld_FarmMill_02.prefab using Guid(a42676f730c2a654aa6040c7d4bf15ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5a434b2ae6bd23067a68863401566c52') in 0.012570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_FarmLand_08.prefab
+  artifactKey: Guid(42d167de4d6e18241983875aa47615ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_FarmLand_08.prefab using Guid(42d167de4d6e18241983875aa47615ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c4a13089d6ec12cf2b6801a833172dd7') in 0.013644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_FarmLand_05_Watered.prefab
+  artifactKey: Guid(de9ace0cdea0f94488f03b52bbbe082b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_FarmLand_05_Watered.prefab using Guid(de9ace0cdea0f94488f03b52bbbe082b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2e789156834839bf0a71a9d61b61cc43') in 0.037014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_Tree_01.prefab
+  artifactKey: Guid(5d5745a0e63397947b3dbc92a667b7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_Tree_01.prefab using Guid(5d5745a0e63397947b3dbc92a667b7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '09386d8fdff76fed5e5d7e5108fca92f') in 0.012844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_WoodFence_06.prefab
+  artifactKey: Guid(786231a4ce8bda04ea331ca13f8d4a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_WoodFence_06.prefab using Guid(786231a4ce8bda04ea331ca13f8d4a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0953a411a465899bd3008ab4714a1440') in 0.011755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_WaterLand_04.prefab
+  artifactKey: Guid(c2c82ad295288da4789844199ffd0336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_WaterLand_04.prefab using Guid(c2c82ad295288da4789844199ffd0336) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '50471f2a6a9ab9b267a044caec3b6d7d') in 0.011357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_Tree_05.prefab
+  artifactKey: Guid(d534d873f81082e4aa9f93a03e577725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_Tree_05.prefab using Guid(d534d873f81082e4aa9f93a03e577725) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6d8c400eca6ff32b94777298825d215f') in 0.011577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Bld_Silo_02.prefab
+  artifactKey: Guid(d8312e4a711e79844958bf19c9e7128e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Bld_Silo_02.prefab using Guid(d8312e4a711e79844958bf19c9e7128e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '30ee09c02450b25654fb9675f7411c11') in 0.011373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Bld_ChickenCoop.prefab
+  artifactKey: Guid(cb4d35c78a2eea94a9a4e9ae36afa35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Bld_ChickenCoop.prefab using Guid(cb4d35c78a2eea94a9a4e9ae36afa35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c6df96edc2c1204f205ba90a4dba2a5c') in 0.012407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/food_Avocado.prefab
+  artifactKey: Guid(5a12789b4453d4342922520189221042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/food_Avocado.prefab using Guid(5a12789b4453d4342922520189221042) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '69d844135010e7a9e63ae16ed914d18f') in 0.012746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_GrassLand_Cross.prefab
+  artifactKey: Guid(b9ffce8a21f1d904f8be476a37459f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_GrassLand_Cross.prefab using Guid(b9ffce8a21f1d904f8be476a37459f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '53cc0f03d2e880750d16b4990df58858') in 0.012148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_Tree_02.prefab
+  artifactKey: Guid(f236388441bd2494693c3f4c78ae7ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_Tree_02.prefab using Guid(f236388441bd2494693c3f4c78ae7ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '50d131fc8d00480f83aa4e86c2a9a2bc') in 0.011921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_WoodFence_01.prefab
+  artifactKey: Guid(c754dcd1fe6a015409569af86c7c1863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_WoodFence_01.prefab using Guid(c754dcd1fe6a015409569af86c7c1863) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3b22f8506287b0fdf4214f5792b00e15') in 0.011221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack
+  artifactKey: Guid(00421b863045c6046be25528acbe4ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack using Guid(00421b863045c6046be25528acbe4ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '71f1d78e6f8e5a1717508f3fcd1cdb6f') in 0.000443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/food_Broccoli.prefab
+  artifactKey: Guid(770aa2e09a8dea349b743ecf79b10b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/food_Broccoli.prefab using Guid(770aa2e09a8dea349b743ecf79b10b50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '164298a6e040b3cd5c597fe4e1902b8a') in 0.012117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_FarmLand_09.prefab
+  artifactKey: Guid(d029fd3df6996fb42a03b510a445abd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Env_FarmLand_09.prefab using Guid(d029fd3df6996fb42a03b510a445abd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'aea6729a5ff608619dd209c1d7357ddb') in 0.012061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 10.700591 seconds.
+  path: Assets/Prefabs/Slot.prefab
+  artifactKey: Guid(0f1cb1182f9931c4094ba789da829e92) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Prefabs/Slot.prefab using Guid(0f1cb1182f9931c4094ba789da829e92) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+The method get_fontSharedMaterials was not found on CountText. This property will not be indexed.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Rendering.Universal.MaterialReferenceBuilder:GetMaterialFromMethod (System.Reflection.MethodInfo,UnityEngine.Object,System.Func`3<string, string, string>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.12/Editor/Converter/MaterialReferenceBuilder.cs:133)
+UnityEditor.Rendering.Universal.ConversionIndexers:ConversionIndexer (UnityEditor.Search.CustomObjectIndexerTarget,UnityEditor.Search.ObjectIndexer) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.12/Editor/Converter/ConversionIndexers.cs:21)
+UnityEditor.Search.ObjectIndexer:CallCustomIndexers (string,int,UnityEngine.Object,UnityEditor.SerializedObject,bool)
+UnityEditor.Search.ObjectIndexer:IndexCustomProperties (string,int,UnityEngine.Object)
+UnityEditor.Search.AssetIndexer:IndexCustomGameObjectProperties (string,int,UnityEngine.GameObject)
+UnityEditor.Search.AssetIndexer:IndexObjects (UnityEngine.GameObject[],string,string,string,bool)
+UnityEditor.Search.AssetIndexer:IndexPrefab (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
 
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.12/Editor/Converter/MaterialReferenceBuilder.cs Line: 133)
+
+ -> (artifact id: 'c995fb2c70e1c268f26698ddc87272a5') in 0.215758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Models/Env_FarmLand_01.fbx
+  artifactKey: Guid(bd4b53167efb9254db5ba1fe8c223385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Models/Env_FarmLand_01.fbx using Guid(bd4b53167efb9254db5ba1fe8c223385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3befd5da5c490df40f0c5d1ab9074919') in 0.113995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Models/Prop_SmallFarmingTool_01.fbx
+  artifactKey: Guid(0d39dd0c62e08304ea14913f85c7c97b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Models/Prop_SmallFarmingTool_01.fbx using Guid(0d39dd0c62e08304ea14913f85c7c97b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e677ed22bdbfe4628ca780a197e8ea3f') in 0.032246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Prop_BigFarmingTool_04.prefab
+  artifactKey: Guid(1b72103361ec93849a6c678ffef1634c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Prop_BigFarmingTool_04.prefab using Guid(1b72103361ec93849a6c678ffef1634c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '15a5ea89c32961ae5b0c06d34f8fe5b0') in 0.029035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Prop_Pallete_01.prefab
+  artifactKey: Guid(77c83503cda412e49a322ddaf231942d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Prefabs/Prop_Pallete_01.prefab using Guid(77c83503cda412e49a322ddaf231942d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '95f55f2cf8a23fa323e984d8f06d56d7') in 0.022697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Models/Prop_Haystack_04.fbx
+  artifactKey: Guid(06345cde8d2b0bc4ea916f1b6aa7e4eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Models/Prop_Haystack_04.fbx using Guid(06345cde8d2b0bc4ea916f1b6aa7e4eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '17e9838cb183d5dee80bbcacebba4ef8') in 0.028577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefabs/Items/Tomato Seed.prefab
+  artifactKey: Guid(f9313c2ce03f9bf4dab7fde5948c9f65) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Prefabs/Items/Tomato Seed.prefab using Guid(f9313c2ce03f9bf4dab7fde5948c9f65) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd4fc06193e3c2e2ff9360dce6ee8bd8d') in 0.018501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Imported/RPGPP_LT/Prefabs/Exterior/Wood_path/rpgpp_lt_fence_wood_02c.prefab
+  artifactKey: Guid(aab66de36575a3c4f91090c4945c1234) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Imported/RPGPP_LT/Prefabs/Exterior/Wood_path/rpgpp_lt_fence_wood_02c.prefab using Guid(aab66de36575a3c4f91090c4945c1234) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '848706b62cf688227730291c133e9187') in 0.029625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Imported/RPGPP_LT/Prefabs/Exterior/Wood_path/rpgpp_lt_fence_wood_01_corner_a.prefab
+  artifactKey: Guid(fecf8ad42b0da5e45876d72dad6592f4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Imported/RPGPP_LT/Prefabs/Exterior/Wood_path/rpgpp_lt_fence_wood_01_corner_a.prefab using Guid(fecf8ad42b0da5e45876d72dad6592f4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '66fb7a7739140e97b17f68a324934e95') in 0.029271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Materials/Dirt.mat
+  artifactKey: Guid(ee3028a3545cd3149bbceeb560773ea0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/Dirt.mat using Guid(ee3028a3545cd3149bbceeb560773ea0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ae2a3c0053ede656a4a03da67ec41a89') in 0.025227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/Imported/RPGPP_LT/Prefabs/Props/Banners/rpgpp_lt_banner_01a.prefab
+  artifactKey: Guid(e1032c9b5d7d362489670d42997dceb5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Imported/RPGPP_LT/Prefabs/Props/Banners/rpgpp_lt_banner_01a.prefab using Guid(e1032c9b5d7d362489670d42997dceb5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '555523d7be92822911b7dce92d5d39c6') in 0.029041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Imported/RPGPP_LT/Prefabs/Props/Wood/rpgpp_lt_log_wood_02a.prefab
+  artifactKey: Guid(5483d89531d4fe8489d8a4190d0d03e4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Imported/RPGPP_LT/Prefabs/Props/Wood/rpgpp_lt_log_wood_02a.prefab using Guid(5483d89531d4fe8489d8a4190d0d03e4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '427b02f1de54a17a8a4f17b5df840c95') in 0.029735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Models/Prop_BigFarmingTool_05.fbx
+  artifactKey: Guid(43adf2e800138d44a87fc8ae1a6a9e29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Farm Ranch Pack/Models/Prop_BigFarmingTool_05.fbx using Guid(43adf2e800138d44a87fc8ae1a6a9e29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7886fd4854f468072388b3d2dbc7a7ae') in 0.029706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+Editor requested this worker to shutdown with reason: balancing worker count downwards
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
 Process exiting

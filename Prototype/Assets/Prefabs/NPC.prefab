@@ -497,7 +497,7 @@ MonoBehaviour:
   uiText: {fileID: 7157177159313438071}
   player: {fileID: 0}
   healthBar: {fileID: 6944307570235338391}
-  healthBarBg: {fileID: 0}
+  healthBarBg: {fileID: 8776429301828288307}
   reward: 40
   askPhrase: Hey! I need a basic red potion
   thanksPhrase: Thank You!
