@@ -1,0 +1,308 @@
+Using pre-set license
+Built from '2022.3/respin/2022.3.62f2-4af31df585-v2' branch; Version is '2022.3.62f3 (96770f904ca7) revision 9860879'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'en' Physical Memory: 32313 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker23
+-projectPath
+C:/Projects/Unity/FarmingGame/Prototype
+-logFile
+Logs/AssetImportWorker23.log
+-srvPort
+49798
+Successfully changed project path to: C:/Projects/Unity/FarmingGame/Prototype
+C:/Projects/Unity/FarmingGame/Prototype
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10604]  Target information:
+
+Player connection [10604]  * "[IP] 192.168.0.157 [Port] 0 [Flags] 2 [Guid] 18646749 [EditorId] 18646749 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VRGIVBT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [10604] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [10604] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 9.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f3 (96770f904ca7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Projects/Unity/FarmingGame/Prototype/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 9060 XT (ID=0x7590)
+    Vendor:   ATI
+    VRAM:     16188 MB
+    Driver:   32.0.31007.5012
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004437 seconds.
+- Loaded All Assemblies, in  0.205 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.166 seconds
+Domain Reload Profiling: 370ms
+	BeginReloadAssembly (62ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (81ms)
+		LoadAssemblies (60ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (80ms)
+			TypeCache.Refresh (79ms)
+				TypeCache.ScanAssembly (72ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (166ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (137ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (95ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.428 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.480 seconds
+Domain Reload Profiling: 907ms
+	BeginReloadAssembly (86ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (289ms)
+		LoadAssemblies (215ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (121ms)
+			TypeCache.Refresh (100ms)
+				TypeCache.ScanAssembly (90ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (481ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (386ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (257ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 3.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5517 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (350.0 KB). Loaded Objects now: 6014.
+Memory consumption went from 236.4 MB to 236.1 MB.
+Total: 2.495800 ms (FindLiveObjects: 0.294000 ms CreateObjectMapping: 0.086800 ms MarkObjects: 1.976600 ms  DeleteObjects: 0.137500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 415313.515477 seconds.
+  path: Assets/Imported/RPGPP_LT/Materials/rpgpp_lt_mat_a.mat
+  artifactKey: Guid(58d53420af384224ea4cfee8973d18cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/RPGPP_LT/Materials/rpgpp_lt_mat_a.mat using Guid(58d53420af384224ea4cfee8973d18cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5e787725fd1ed2edfeb0e226034d2bc9') in 0.223830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 6.705810 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop Step/Farm_Crop_Broccoli_Step_02.prefab
+  artifactKey: Guid(7dcfc0262ea40ce41892de4befc9a847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop Step/Farm_Crop_Broccoli_Step_02.prefab using Guid(7dcfc0262ea40ce41892de4befc9a847) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1ae4ab1cdbc02652c60d8be4507d5ae2') in 0.018656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop Step/Farm_Crop_Mashroom_02_Dead.prefab
+  artifactKey: Guid(6cbd8f6e1339b914f8f2fd58ac9d382a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop Step/Farm_Crop_Mashroom_02_Dead.prefab using Guid(6cbd8f6e1339b914f8f2fd58ac9d382a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '663263cdfadc666bfd054b20027cf47e') in 0.009000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop Step/Farm_Crop_Carrot_Dead.prefab
+  artifactKey: Guid(42150df1be3db2c499daf201d2f1d0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop Step/Farm_Crop_Carrot_Dead.prefab using Guid(42150df1be3db2c499daf201d2f1d0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ac3d47cdedb030131fc4335fa04df3b4') in 0.015485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop Step/Farm_Crop_Mashroom_02_Step_02.prefab
+  artifactKey: Guid(3b1e5cc58c2674149ba6c3d507969922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop Step/Farm_Crop_Mashroom_02_Step_02.prefab using Guid(3b1e5cc58c2674149ba6c3d507969922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '16eebf0bc0cb716eb2e558f7cc3d4b1a') in 0.008700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop Step/Farm_Crop_Corn_Dead.prefab
+  artifactKey: Guid(d211fdb599021ee40a5ee6d840fb510d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop Step/Farm_Crop_Corn_Dead.prefab using Guid(d211fdb599021ee40a5ee6d840fb510d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e9d88e184f797ff6af3158103afc443d') in 0.008273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop Step/Farm_Crop_Carrot_Step_02.prefab
+  artifactKey: Guid(1a0fc3072ca96ec4283af64115b956a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop Step/Farm_Crop_Carrot_Step_02.prefab using Guid(1a0fc3072ca96ec4283af64115b956a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1f373ec71972c852e04f5290c4f48ac0') in 0.014253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop Step/Farm_Crop_Cauliflower_Step_03.prefab
+  artifactKey: Guid(8208b668c3b954947be70fc9690eeb2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop Step/Farm_Crop_Cauliflower_Step_03.prefab using Guid(8208b668c3b954947be70fc9690eeb2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5e5b3d50dfae98ba91affb529c02e184') in 0.014127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop Step/Farm_Crop_Corn_Step_01.prefab
+  artifactKey: Guid(e4d6cf5dfac217e4aa57b954b8cc1105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop Step/Farm_Crop_Corn_Step_01.prefab using Guid(e4d6cf5dfac217e4aa57b954b8cc1105) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4f6ec66268c5963f5414709c262f3f8c') in 0.008140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 5.411094 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Plant/Plant_Pine_Ice_01.prefab
+  artifactKey: Guid(33c3cab01ed77a041b7386cb0218125d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Plant/Plant_Pine_Ice_01.prefab using Guid(33c3cab01ed77a041b7386cb0218125d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8814446043f93b2251bf457e717b580a') in 0.009110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 6.557224 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop/Farm_Crop_Cauliflower_01.prefab
+  artifactKey: Guid(6a7f552b0ed59fc4c929726d64490e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop/Farm_Crop_Cauliflower_01.prefab using Guid(6a7f552b0ed59fc4c929726d64490e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '317f2b136c0f25a80433bf19319d40a2') in 0.008771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop/Farm_Crop_Corn_01.prefab
+  artifactKey: Guid(179272029244a8742b63543f435a1375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop/Farm_Crop_Corn_01.prefab using Guid(179272029244a8742b63543f435a1375) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b2ab2d587b4551a2dde2730343b30efe') in 0.008589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

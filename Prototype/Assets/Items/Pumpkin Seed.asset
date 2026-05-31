@@ -20,6 +20,6 @@ MonoBehaviour:
   maxStackSize: 9
   itemColor: {r: 0.2905661, g: 0.1636687, b: 0.008223519, a: 1}
   isSeed: 1
-  grownPlantPrefab: {fileID: 2010248119391824795, guid: e3c5e6b36e2ba4b41a45d3e1fda99ee1,
+  grownPlantPrefab: {fileID: 6343642347482900760, guid: e3c5e6b36e2ba4b41a45d3e1fda99ee1,
     type: 3}
   growthTime: 5

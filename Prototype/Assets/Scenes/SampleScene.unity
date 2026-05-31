@@ -2614,7 +2614,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  spawnOffset: {x: 0, y: 0.15, z: 0}
+  spawnOffset: {x: 0, y: 0.25, z: 0}
   grownClip: {fileID: 8300000, guid: f433ad6fd7328f5408f4fcb196cb602b, type: 3}
 --- !u!65 &83863654
 BoxCollider:
@@ -3209,7 +3209,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  spawnOffset: {x: 0, y: 0.15, z: 0}
+  spawnOffset: {x: 0, y: 0.25, z: 0}
   grownClip: {fileID: 8300000, guid: f433ad6fd7328f5408f4fcb196cb602b, type: 3}
 --- !u!65 &92760953
 BoxCollider:
@@ -3753,7 +3753,7 @@ Transform:
   m_GameObject: {fileID: 102321376}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 481.53314, y: 363.4831, z: -279.53976}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4588,7 +4588,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  spawnOffset: {x: 0, y: 0.15, z: 0}
+  spawnOffset: {x: 0, y: 0.25, z: 0}
   grownClip: {fileID: 8300000, guid: f433ad6fd7328f5408f4fcb196cb602b, type: 3}
 --- !u!65 &141571085
 BoxCollider:
@@ -7776,7 +7776,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  spawnOffset: {x: 0, y: 0.15, z: 0}
+  spawnOffset: {x: 0, y: 0.25, z: 0}
   grownClip: {fileID: 8300000, guid: f433ad6fd7328f5408f4fcb196cb602b, type: 3}
 --- !u!65 &238724120
 BoxCollider:
@@ -20049,7 +20049,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  spawnOffset: {x: 0, y: 0.15, z: 0}
+  spawnOffset: {x: 0, y: 0.25, z: 0}
   grownClip: {fileID: 8300000, guid: f433ad6fd7328f5408f4fcb196cb602b, type: 3}
 --- !u!65 &549673879
 BoxCollider:
@@ -20296,7 +20296,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  spawnOffset: {x: 0, y: 0.15, z: 0}
+  spawnOffset: {x: 0, y: 0.25, z: 0}
   grownClip: {fileID: 8300000, guid: f433ad6fd7328f5408f4fcb196cb602b, type: 3}
 --- !u!65 &555054916
 BoxCollider:
@@ -27984,7 +27984,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  spawnOffset: {x: 0, y: 0.15, z: 0}
+  spawnOffset: {x: 0, y: 0.25, z: 0}
   grownClip: {fileID: 8300000, guid: f433ad6fd7328f5408f4fcb196cb602b, type: 3}
 --- !u!65 &746809736
 BoxCollider:
@@ -33714,7 +33714,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  spawnOffset: {x: 0, y: 0.15, z: 0}
+  spawnOffset: {x: 0, y: 0.25, z: 0}
   grownClip: {fileID: 8300000, guid: f433ad6fd7328f5408f4fcb196cb602b, type: 3}
 --- !u!65 &878185729
 BoxCollider:
@@ -36730,7 +36730,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 4b920eaa1cc34174786eeaf624e2e55f, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 11da06b1e4c1976468fa42ac6b117e5e, type: 2}
   m_BuildHeightMesh: 0
 --- !u!1 &983793678 stripped
 GameObject:
@@ -39621,7 +39621,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 21fc308ee9f721542a8ac3ce47335070, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.2
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -45727,7 +45727,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  spawnOffset: {x: 0, y: 0.15, z: 0}
+  spawnOffset: {x: 0, y: 0.25, z: 0}
   grownClip: {fileID: 8300000, guid: f433ad6fd7328f5408f4fcb196cb602b, type: 3}
 --- !u!65 &1243426018
 BoxCollider:
@@ -55810,7 +55810,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  spawnOffset: {x: 0, y: 0.15, z: 0}
+  spawnOffset: {x: 0, y: 0.25, z: 0}
   grownClip: {fileID: 8300000, guid: f433ad6fd7328f5408f4fcb196cb602b, type: 3}
 --- !u!65 &1478676962
 BoxCollider:
@@ -63241,7 +63241,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  spawnOffset: {x: 0, y: 0.15, z: 0}
+  spawnOffset: {x: 0, y: 0.25, z: 0}
   grownClip: {fileID: 8300000, guid: f433ad6fd7328f5408f4fcb196cb602b, type: 3}
 --- !u!65 &1685349944
 BoxCollider:
@@ -64742,7 +64742,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  spawnOffset: {x: 0, y: 0.15, z: 0}
+  spawnOffset: {x: 0, y: 0.25, z: 0}
   grownClip: {fileID: 8300000, guid: f433ad6fd7328f5408f4fcb196cb602b, type: 3}
 --- !u!65 &1715520880
 BoxCollider:
@@ -69597,7 +69597,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  spawnOffset: {x: 0, y: 0.15, z: 0}
+  spawnOffset: {x: 0, y: 0.25, z: 0}
   grownClip: {fileID: 8300000, guid: f433ad6fd7328f5408f4fcb196cb602b, type: 3}
 --- !u!65 &1825145527
 BoxCollider:
@@ -70493,7 +70493,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  spawnOffset: {x: 0, y: 0.15, z: 0}
+  spawnOffset: {x: 0, y: 0.25, z: 0}
   grownClip: {fileID: 8300000, guid: f433ad6fd7328f5408f4fcb196cb602b, type: 3}
 --- !u!65 &1842901501
 BoxCollider:
@@ -71280,7 +71280,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  spawnOffset: {x: 0, y: 0.15, z: 0}
+  spawnOffset: {x: 0, y: 0.25, z: 0}
   grownClip: {fileID: 8300000, guid: f433ad6fd7328f5408f4fcb196cb602b, type: 3}
 --- !u!65 &1858070641
 BoxCollider:
@@ -71994,7 +71994,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  spawnOffset: {x: 0, y: 0.15, z: 0}
+  spawnOffset: {x: 0, y: 0.25, z: 0}
   grownClip: {fileID: 8300000, guid: f433ad6fd7328f5408f4fcb196cb602b, type: 3}
 --- !u!65 &1868188412
 BoxCollider:
@@ -78053,7 +78053,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  spawnOffset: {x: 0, y: 0.15, z: 0}
+  spawnOffset: {x: 0, y: 0.25, z: 0}
   grownClip: {fileID: 8300000, guid: f433ad6fd7328f5408f4fcb196cb602b, type: 3}
 --- !u!65 &1999480141
 BoxCollider:
@@ -84586,6 +84586,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Farm Plot
+      objectReference: {fileID: 0}
+    - target: {fileID: 3880755837304643314, guid: 36653c1eac06da046ba7b168c528264d,
+        type: 3}
+      propertyPath: spawnOffset.y
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 3880755837304643314, guid: 36653c1eac06da046ba7b168c528264d,
         type: 3}

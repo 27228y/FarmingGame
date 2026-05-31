@@ -497,6 +497,7 @@ MonoBehaviour:
   uiText: {fileID: 7157177159313438071}
   player: {fileID: 0}
   healthBar: {fileID: 6944307570235338391}
+  healthBarBg: {fileID: 0}
   reward: 40
   askPhrase: Hey! I need a basic red potion
   thanksPhrase: Thank You!
@@ -508,6 +509,7 @@ MonoBehaviour:
   minWaitTime: 2
   maxWaitTime: 5
   stuckThresholdTime: 1.5
+  healed: 0
 --- !u!195 &784301384515926894
 NavMeshAgent:
   m_ObjectHideFlags: 0

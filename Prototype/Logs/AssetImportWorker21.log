@@ -1,0 +1,1112 @@
+Using pre-set license
+Built from '2022.3/respin/2022.3.62f2-4af31df585-v2' branch; Version is '2022.3.62f3 (96770f904ca7) revision 9860879'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'en' Physical Memory: 32313 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker21
+-projectPath
+C:/Projects/Unity/FarmingGame/Prototype
+-logFile
+Logs/AssetImportWorker21.log
+-srvPort
+49798
+Successfully changed project path to: C:/Projects/Unity/FarmingGame/Prototype
+C:/Projects/Unity/FarmingGame/Prototype
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [20740]  Target information:
+
+Player connection [20740]  * "[IP] 192.168.0.157 [Port] 0 [Flags] 2 [Guid] 89578158 [EditorId] 89578158 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VRGIVBT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20740] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [20740] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 10.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f3 (96770f904ca7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Projects/Unity/FarmingGame/Prototype/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 9060 XT (ID=0x7590)
+    Vendor:   ATI
+    VRAM:     16188 MB
+    Driver:   32.0.31007.5012
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005918 seconds.
+- Loaded All Assemblies, in  0.223 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.168 seconds
+Domain Reload Profiling: 391ms
+	BeginReloadAssembly (70ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (86ms)
+		LoadAssemblies (68ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (85ms)
+			TypeCache.Refresh (84ms)
+				TypeCache.ScanAssembly (76ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (169ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (139ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (95ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.432 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.494 seconds
+Domain Reload Profiling: 925ms
+	BeginReloadAssembly (86ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (295ms)
+		LoadAssemblies (219ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (122ms)
+			TypeCache.Refresh (101ms)
+				TypeCache.ScanAssembly (92ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (494ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (397ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (265ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 4.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5517 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (350.5 KB). Loaded Objects now: 6014.
+Memory consumption went from 236.3 MB to 235.9 MB.
+Total: 2.821300 ms (FindLiveObjects: 0.312100 ms CreateObjectMapping: 0.099100 ms MarkObjects: 2.259500 ms  DeleteObjects: 0.150100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 414840.298666 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Fence/Farm_Fence_C_01.prefab
+  artifactKey: Guid(5c0c42afc24d6304ab9de90d08ec11f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Fence/Farm_Fence_C_01.prefab using Guid(5c0c42afc24d6304ab9de90d08ec11f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '396c43aac5b5b586ed3ffa6b3a3e9602') in 0.198962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 1.374693 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm House/Farm_House_Barn_01.prefab
+  artifactKey: Guid(df056bcab45cf7040bd0b5921226be36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm House/Farm_House_Barn_01.prefab using Guid(df056bcab45cf7040bd0b5921226be36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '739177ba7e28adace76267fca5970b7c') in 0.015325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 1.998997 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Tool/Farm_Tool_Shovel_01.prefab
+  artifactKey: Guid(fba6bcb3c7d442c4f95fafcbfffcd636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Tool/Farm_Tool_Shovel_01.prefab using Guid(fba6bcb3c7d442c4f95fafcbfffcd636) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f97579ab5eff9433880adb99b7c39e19') in 0.008089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 1.681131 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Tree/Farm_Crop_Tree_02.prefab
+  artifactKey: Guid(11c53348ed97abc409847c78de1c27ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Tree/Farm_Crop_Tree_02.prefab using Guid(11c53348ed97abc409847c78de1c27ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cd310e17ab46674ff7a5db05c7ff618c') in 0.007983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 3.027703 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Plant/Plant_Pine_01.prefab
+  artifactKey: Guid(32cde5868ac4c6444bc465161d2b6ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Plant/Plant_Pine_01.prefab using Guid(32cde5868ac4c6444bc465161d2b6ba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '31b2f664304f739bfe9e8741de094b61') in 0.008756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 1.784382 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Prop/Props_Broken_Rope_Bridge_01.prefab
+  artifactKey: Guid(1b5aa0ac49ecf354cacec3135a3e1a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Prop/Props_Broken_Rope_Bridge_01.prefab using Guid(1b5aa0ac49ecf354cacec3135a3e1a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bac06e1e9268affa48a893063e758d1b') in 0.008096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Prop/Props_Mailbox_01.prefab
+  artifactKey: Guid(b82dd5b68d362344bbd0ff80b7db5e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Prop/Props_Mailbox_01.prefab using Guid(b82dd5b68d362344bbd0ff80b7db5e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'aadd63a074da1236fa53ee1972166e17') in 0.007394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Prop/Props_Wooden_Sign_01.prefab
+  artifactKey: Guid(b1110765019bbf146b56889d0df5862f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Prop/Props_Wooden_Sign_01.prefab using Guid(b1110765019bbf146b56889d0df5862f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'af4059ec1f011bc86af6afd7fbfb0a4c') in 0.008391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Prop/Props_Wooden_Sign_04.prefab
+  artifactKey: Guid(9ef26273cc9f429459c5cd4eb5cba47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Prop/Props_Wooden_Sign_04.prefab using Guid(9ef26273cc9f429459c5cd4eb5cba47e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '18412dc97502ec6a0b57b3deb8ecacf0') in 0.007697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 1.772158 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Rock/Rock_A_01.prefab
+  artifactKey: Guid(0bf9b78834a4b3d4d87eb944dd7f68be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Rock/Rock_A_01.prefab using Guid(0bf9b78834a4b3d4d87eb944dd7f68be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9178fe774e17d9cb0591710c2a968f6f') in 0.008543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Rock/Rock_A_04.prefab
+  artifactKey: Guid(d39afb1f92dd3a54da5010291aca648f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Rock/Rock_A_04.prefab using Guid(d39afb1f92dd3a54da5010291aca648f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2e8562e99b4fcb6786f3cec26e8102cf') in 0.009075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 1.456757 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Selection Pointer/Selection_Pointer_01.prefab
+  artifactKey: Guid(4ecad00d7b2f8774db8fc98f93b324a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Selection Pointer/Selection_Pointer_01.prefab using Guid(4ecad00d7b2f8774db8fc98f93b324a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e26b8fd90686d71eae76aae5461582a1') in 0.007812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 263.377557 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Material/Texture/copy_for_flower.png
+  artifactKey: Guid(60d7404f7f3ecad478964f2e3567fc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Material/Texture/copy_for_flower.png using Guid(60d7404f7f3ecad478964f2e3567fc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '79f4c7265d1a7eec2ec2dfa9600cce0f') in 0.017938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.409569 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Material/Color_Palette_01.mat
+  artifactKey: Guid(fa6c45465cde56c4495f6d9109c80326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Material/Color_Palette_01.mat using Guid(fa6c45465cde56c4495f6d9109c80326) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '65c451fd02b79ded361e872027a50561') in 0.022772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.128810 seconds.
+  path: Assets/Imported/Cursor (Kenney)/PNG/Basic/Default/resize_a_cross.png
+  artifactKey: Guid(49f562cad25a8bc40ba24cdde940ba6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Cursor (Kenney)/PNG/Basic/Default/resize_a_cross.png using Guid(49f562cad25a8bc40ba24cdde940ba6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '439cddd2ba29ee6b4987b703580dd72c') in 0.008144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004656 seconds.
+  path: Assets/Imported/Cursor (Kenney)/PNG/Basic/Default/resize_a_cross_diagonal.png
+  artifactKey: Guid(fd45c8805cea46f429ac3d2b79e76578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Cursor (Kenney)/PNG/Basic/Default/resize_a_cross_diagonal.png using Guid(fd45c8805cea46f429ac3d2b79e76578) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f7fffa0d6b329c6e55756ab185ac8661') in 0.007572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009183 seconds.
+  path: Assets/Imported/Cursor (Kenney)/PNG/Basic/Double/resize_a_vertical.png
+  artifactKey: Guid(7b507f1ba2b36f24994102a70585e177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Cursor (Kenney)/PNG/Basic/Double/resize_a_vertical.png using Guid(7b507f1ba2b36f24994102a70585e177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'aeb032e8c34f5d856fb3b300d86bf825') in 0.008552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Imported/Cursor (Kenney)/PNG/Basic/Default/resize_b_cross.png
+  artifactKey: Guid(72549057ba5d15947b9eaa98b431d088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Cursor (Kenney)/PNG/Basic/Default/resize_b_cross.png using Guid(72549057ba5d15947b9eaa98b431d088) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c792698f3fc9a1cb13b806e219403e1f') in 0.007942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Imported/Cursor (Kenney)/PNG/Basic/Default/resize_b_cross_diagonal.png
+  artifactKey: Guid(abe6cd2cefb5ca64185bc2ef24e7443f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Cursor (Kenney)/PNG/Basic/Default/resize_b_cross_diagonal.png using Guid(abe6cd2cefb5ca64185bc2ef24e7443f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4fae5465cc030ad0a6a2d36c7f6d94d9') in 0.007209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008608 seconds.
+  path: Assets/Imported/Cursor (Kenney)/PNG/Basic/Double/resize_b_vertical.png
+  artifactKey: Guid(d383c053de1cdf645975c3fc1815268d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Cursor (Kenney)/PNG/Basic/Double/resize_b_vertical.png using Guid(d383c053de1cdf645975c3fc1815268d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'eb4e478cf5bacd2086bf180d71d9bcc0') in 0.007385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005323 seconds.
+  path: Assets/Imported/Cursor (Kenney)/PNG/Basic/Double/resize_c_cross.png
+  artifactKey: Guid(1031eb1867b1c57498a7cb6e748a76e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Cursor (Kenney)/PNG/Basic/Double/resize_c_cross.png using Guid(1031eb1867b1c57498a7cb6e748a76e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '69a50a7cd60c4fab627fdd69194a55bf') in 0.007983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Imported/Cursor (Kenney)/PNG/Basic/Double/resize_c_cross_diagonal.png
+  artifactKey: Guid(8fe7e130a1198f6439571596673860f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Cursor (Kenney)/PNG/Basic/Double/resize_c_cross_diagonal.png using Guid(8fe7e130a1198f6439571596673860f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '641f1c268b7770e49cb34ad7db80ee48') in 0.009413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Imported/Cursor (Kenney)/PNG/Outline/Double/resize_c_cross_diagonal.png
+  artifactKey: Guid(71144bd4249731d4bb5209b6615759cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Cursor (Kenney)/PNG/Outline/Double/resize_c_cross_diagonal.png using Guid(71144bd4249731d4bb5209b6615759cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e64beebc805e785b632f0cf9f76c5bc4') in 0.008995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imported/Cursor (Kenney)/PNG/Basic/Double/resize_c_diagonal.png
+  artifactKey: Guid(59998ad9b1607d649a8bb7e36d6eb34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Cursor (Kenney)/PNG/Basic/Double/resize_c_diagonal.png using Guid(59998ad9b1607d649a8bb7e36d6eb34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2410ac03699c45f8f401a771d101de8d') in 0.007997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imported/Cursor (Kenney)/PNG/Basic/Default/resize_c_diagonal.png
+  artifactKey: Guid(aa0a6a581a48aad4487c7d2a5bd5f878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Cursor (Kenney)/PNG/Basic/Default/resize_c_diagonal.png using Guid(aa0a6a581a48aad4487c7d2a5bd5f878) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '67a90b86f5599bff4bf493150502bb07') in 0.007280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imported/Cursor (Kenney)/PNG/Outline/Double/resize_c_diagonal_mirror.png
+  artifactKey: Guid(9b0542f26dab6364cb43d34c8a91b060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Cursor (Kenney)/PNG/Outline/Double/resize_c_diagonal_mirror.png using Guid(9b0542f26dab6364cb43d34c8a91b060) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3b21eceb64c7f377ca04703062cd7890') in 0.007719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Imported/Cursor (Kenney)/PNG/Basic/Default/resize_c_horizontal.png
+  artifactKey: Guid(2fb2b1e4a84f44b44b586efe86230cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Cursor (Kenney)/PNG/Basic/Default/resize_c_horizontal.png using Guid(2fb2b1e4a84f44b44b586efe86230cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0e9f296758e2d14c5452f569361e9deb') in 0.008222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imported/Cursor (Kenney)/PNG/Outline/Double/resize_c_horizontal.png
+  artifactKey: Guid(9104dde9670e4ee469f4cac8d64a59bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Cursor (Kenney)/PNG/Outline/Double/resize_c_horizontal.png using Guid(9104dde9670e4ee469f4cac8d64a59bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '22577462f68411664c88dfb1cc8c4402') in 0.008052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imported/Cursor (Kenney)/PNG/Basic/Default/resize_c_vertical.png
+  artifactKey: Guid(2b00bd93327336045b0443680cc27ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Cursor (Kenney)/PNG/Basic/Default/resize_c_vertical.png using Guid(2b00bd93327336045b0443680cc27ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '22051ff781a6f5758b87ddb5f7468022') in 0.007530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004214 seconds.
+  path: Assets/Imported/Cursor (Kenney)/PNG/Outline/Double/resize_d_cross.png
+  artifactKey: Guid(51855558b8b848346b5b3593e79ca75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Cursor (Kenney)/PNG/Outline/Double/resize_d_cross.png using Guid(51855558b8b848346b5b3593e79ca75a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cdea9635c06b8c137df3e1d68c8d2e8e') in 0.007896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imported/Cursor (Kenney)/PNG/Basic/Double/resize_d_cross_diagonal.png
+  artifactKey: Guid(e204843f0d40072439c974dc1d26c8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Cursor (Kenney)/PNG/Basic/Double/resize_d_cross_diagonal.png using Guid(e204843f0d40072439c974dc1d26c8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5eb7707e8345e3c2c8d332793eb6cc1f') in 0.009412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Imported/Cursor (Kenney)/PNG/Outline/Double/resize_d_cross_diagonal.png
+  artifactKey: Guid(2181531296fa0ca4082e035192e0113f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Cursor (Kenney)/PNG/Outline/Double/resize_d_cross_diagonal.png using Guid(2181531296fa0ca4082e035192e0113f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e8a3ce93299f9af42735051b05e9022b') in 0.010298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.339 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.906 seconds
+Domain Reload Profiling: 1244ms
+	BeginReloadAssembly (111ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (184ms)
+		LoadAssemblies (219ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (906ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (359ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (223ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 4.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5349 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (317.5 KB). Loaded Objects now: 6102.
+Memory consumption went from 210.7 MB to 210.4 MB.
+Total: 3.178100 ms (FindLiveObjects: 0.371500 ms CreateObjectMapping: 0.186900 ms MarkObjects: 2.529500 ms  DeleteObjects: 0.089500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 40.276748 seconds.
+  path: Assets/Imported/Map Tiles (Kenney)/Isometric/cliff_topDiagonal_rock_SW.png
+  artifactKey: Guid(e7030b57b30e71e4cbafa2317783cfe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Map Tiles (Kenney)/Isometric/cliff_topDiagonal_rock_SW.png using Guid(e7030b57b30e71e4cbafa2317783cfe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '87f71d67eadf8f514026d08ed70531c2') in 0.034833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Imported/Map Tiles (Kenney)/Side/cliff_waterfall_rock.png
+  artifactKey: Guid(e50c190805a388b44876bbacd679059f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Map Tiles (Kenney)/Side/cliff_waterfall_rock.png using Guid(e50c190805a388b44876bbacd679059f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3e0417a32eca734643c30b4f523a5d59') in 0.008902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Imported/Map Tiles (Kenney)/Isometric/cliff_waterfall_rock_SE.png
+  artifactKey: Guid(2ac2dc3a4a142094fa81da6e9fcffe61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Map Tiles (Kenney)/Isometric/cliff_waterfall_rock_SE.png using Guid(2ac2dc3a4a142094fa81da6e9fcffe61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b5fc79430d013403802e83127a90ead2') in 0.009187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imported/Map Tiles (Kenney)/Isometric/cliff_waterfall_rock_SW.png
+  artifactKey: Guid(6f8af0df70a508149b6880ad3f25e6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Map Tiles (Kenney)/Isometric/cliff_waterfall_rock_SW.png using Guid(6f8af0df70a508149b6880ad3f25e6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1f252305732faa98e299a4cfd19e4fba') in 0.008951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Imported/Map Tiles (Kenney)/Isometric/cliff_waterfall_stone_SW.png
+  artifactKey: Guid(d6a4626d009911440a0b369d820ad2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Map Tiles (Kenney)/Isometric/cliff_waterfall_stone_SW.png using Guid(d6a4626d009911440a0b369d820ad2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2862c0f43a838d9d803dddcb1c8db605') in 0.008846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imported/Map Tiles (Kenney)/Side/cliff_waterfall_stone.png
+  artifactKey: Guid(6447863930678164b878396be3216777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Map Tiles (Kenney)/Side/cliff_waterfall_stone.png using Guid(6447863930678164b878396be3216777) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '939fa56846d9444305ab37fccf973130') in 0.007940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Imported/Map Tiles (Kenney)/Side/cliff_waterfallTop_stone.png
+  artifactKey: Guid(b7da259daab178d45bcf8692adb50c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Map Tiles (Kenney)/Side/cliff_waterfallTop_stone.png using Guid(b7da259daab178d45bcf8692adb50c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0cb5992144a61f8e7d5fe468e8be2c24') in 0.008218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imported/Map Tiles (Kenney)/Isometric/cliff_waterfallTop_stone_NW.png
+  artifactKey: Guid(8f8b5db9df1fc784ab59251b763f3eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Map Tiles (Kenney)/Isometric/cliff_waterfallTop_stone_NW.png using Guid(8f8b5db9df1fc784ab59251b763f3eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6f9f2928138b877b6dc95fdc9b2d74c9') in 0.008787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Imported/Map Tiles (Kenney)/Side/crop_carrot.png
+  artifactKey: Guid(9352ffca137d60348ae42cd58dec2cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Map Tiles (Kenney)/Side/crop_carrot.png using Guid(9352ffca137d60348ae42cd58dec2cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1dff5f522e2c13f1793b3956c366fe0b') in 0.008354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imported/Map Tiles (Kenney)/Isometric/crop_carrot_NW.png
+  artifactKey: Guid(53f2f66a890e2024ea0506f3739b9b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Map Tiles (Kenney)/Isometric/crop_carrot_NW.png using Guid(53f2f66a890e2024ea0506f3739b9b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ab6a1da469050dc28f0548ee08f039b9') in 0.009045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imported/Map Tiles (Kenney)/Side/crop_melon.png
+  artifactKey: Guid(2c17eb9b731d01145ac378fa45adf014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Map Tiles (Kenney)/Side/crop_melon.png using Guid(2c17eb9b731d01145ac378fa45adf014) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2a014a09c20ae9d98e46f3259a6bef0d') in 0.008725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Imported/Map Tiles (Kenney)/Isometric/crop_melon_NW.png
+  artifactKey: Guid(ee3c0cfa085c64c45a96803fbae873e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Map Tiles (Kenney)/Isometric/crop_melon_NW.png using Guid(ee3c0cfa085c64c45a96803fbae873e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c61fb576dfc7cb65f1ece0ead804ef1f') in 0.008608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Imported/Map Tiles (Kenney)/Side/crop_pumpkin.png
+  artifactKey: Guid(fe90cc5c04a74c640a0fabf374ccf3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Map Tiles (Kenney)/Side/crop_pumpkin.png using Guid(fe90cc5c04a74c640a0fabf374ccf3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '03ba09e63906086f6977678dd1f746a6') in 0.008921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Imported/Map Tiles (Kenney)/Isometric/crop_pumpkin_SW.png
+  artifactKey: Guid(7e7009e767fa8684ba3540fe9d8c4bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Map Tiles (Kenney)/Isometric/crop_pumpkin_SW.png using Guid(7e7009e767fa8684ba3540fe9d8c4bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '03e13b1af31f45a2c187f1cb9a56862a') in 0.005075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imported/Map Tiles (Kenney)/Side/crop_turnip.png
+  artifactKey: Guid(8369435f83eb2384d861cbd9488b98dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Map Tiles (Kenney)/Side/crop_turnip.png using Guid(8369435f83eb2384d861cbd9488b98dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e0d2e26239f4297dd4ef458aa0bfb46e') in 0.007969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Imported/Map Tiles (Kenney)/Isometric/crop_turnip_SE.png
+  artifactKey: Guid(13a2df9e9ef0f1a4c83eb8985bfea9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Map Tiles (Kenney)/Isometric/crop_turnip_SE.png using Guid(13a2df9e9ef0f1a4c83eb8985bfea9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '94b2f7d4f3f351157e881b6e12622d6d') in 0.008759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 25.865211 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Material/Color_Palette_01 1.mat
+  artifactKey: Guid(dfa0a53b97d23a44e8661afde2b347e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Material/Color_Palette_01 1.mat using Guid(dfa0a53b97d23a44e8661afde2b347e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '66c4028da2566ff6a051a0348d25a598') in 0.149452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 25.904623 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Material/Color_Palette_01 1.mat
+  artifactKey: Guid(dfa0a53b97d23a44e8661afde2b347e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Material/Color_Palette_01 1.mat using Guid(dfa0a53b97d23a44e8661afde2b347e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fc8b19c963117ea402f762ef9b3573ee') in 0.038593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 36.863858 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Material/Color_Palette_01 1.mat
+  artifactKey: Guid(dfa0a53b97d23a44e8661afde2b347e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Material/Color_Palette_01 1.mat using Guid(dfa0a53b97d23a44e8661afde2b347e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a8d81b1744569462b18113adff863ebe') in 0.013406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 16.279650 seconds.
+  path: Assets/Imported/Map Tiles (Kenney)/Isometric/crops_cornStageA_NE.png
+  artifactKey: Guid(74bae3666470904469ea4ece0c0624a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Map Tiles (Kenney)/Isometric/crops_cornStageA_NE.png using Guid(74bae3666470904469ea4ece0c0624a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dfb2b3c54beca80fd0a6a83e339fc2d3') in 0.009343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Imported/Map Tiles (Kenney)/Isometric/crops_cornStageA_SW.png
+  artifactKey: Guid(30f7dddfb1f4cf34abc6bc6675ca33f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Map Tiles (Kenney)/Isometric/crops_cornStageA_SW.png using Guid(30f7dddfb1f4cf34abc6bc6675ca33f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c809827e56f7b73f7a32a27ac19d7701') in 0.009845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Imported/Map Tiles (Kenney)/Isometric/crops_cornStageA_SE.png
+  artifactKey: Guid(abeea4eb9eb6c9742a700e104b0ca1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Map Tiles (Kenney)/Isometric/crops_cornStageA_SE.png using Guid(abeea4eb9eb6c9742a700e104b0ca1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd021fe9068d89b10b84bc36e9505d67c') in 0.009218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006977 seconds.
+  path: Assets/Imported/Map Tiles (Kenney)/Isometric/crops_cornStageB_NW.png
+  artifactKey: Guid(355cc88ec5ba1074b947dafb0d679d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Map Tiles (Kenney)/Isometric/crops_cornStageB_NW.png using Guid(355cc88ec5ba1074b947dafb0d679d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e819384083e0272054a00b6e3170a777') in 0.008193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Imported/Map Tiles (Kenney)/Isometric/crops_cornStageB_SW.png
+  artifactKey: Guid(9f436b5e726f8264bb685a8a65f7121d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Map Tiles (Kenney)/Isometric/crops_cornStageB_SW.png using Guid(9f436b5e726f8264bb685a8a65f7121d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2e1ded8cb12eefa8a3da3d1a7cb4a687') in 0.008693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imported/Map Tiles (Kenney)/Isometric/crops_cornStageC_NE.png
+  artifactKey: Guid(656d1f922f91e3f4591ce7d525ee1f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Map Tiles (Kenney)/Isometric/crops_cornStageC_NE.png using Guid(656d1f922f91e3f4591ce7d525ee1f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd6c6a95e38d683ae680bf4cbad671053') in 0.009305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.003622 seconds.
+  path: Assets/Imported/Map Tiles (Kenney)/Side/crops_cornStageD.png
+  artifactKey: Guid(10c7903aa0998b34da937b26cebb74da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Map Tiles (Kenney)/Side/crops_cornStageD.png using Guid(10c7903aa0998b34da937b26cebb74da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3873af06cf2a97f5e531cae2aef1627d') in 0.009338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Imported/Map Tiles (Kenney)/Isometric/crops_cornStageD_NW.png
+  artifactKey: Guid(f99afd06e683b524aa4b1a832dbb0110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Map Tiles (Kenney)/Isometric/crops_cornStageD_NW.png using Guid(f99afd06e683b524aa4b1a832dbb0110) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e3f2f8624b414d040fa563fe68593041') in 0.009800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Imported/Map Tiles (Kenney)/Isometric/crops_cornStageD_SW.png
+  artifactKey: Guid(0895b3f2b5ee9ef4e8d00f3d7313acbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Map Tiles (Kenney)/Isometric/crops_cornStageD_SW.png using Guid(0895b3f2b5ee9ef4e8d00f3d7313acbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4f1f5f6a5a266deee3162b76cb2c647c') in 0.008368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Imported/Map Tiles (Kenney)/Isometric/crops_dirtDoubleRow_NE.png
+  artifactKey: Guid(e2b5a06eb4f9e2f4f8d394c1f69a4a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Map Tiles (Kenney)/Isometric/crops_dirtDoubleRow_NE.png using Guid(e2b5a06eb4f9e2f4f8d394c1f69a4a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5d7dd4dd2832f55ea14f9ad37a18faa7') in 0.008542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Imported/Map Tiles (Kenney)/Isometric/crops_dirtDoubleRow_SW.png
+  artifactKey: Guid(fe97003607d174b4db3da8eee1997861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Map Tiles (Kenney)/Isometric/crops_dirtDoubleRow_SW.png using Guid(fe97003607d174b4db3da8eee1997861) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '122372f7b818844a87ce552320a6dff1') in 0.008301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Imported/Map Tiles (Kenney)/Isometric/crops_dirtDoubleRowCorner_SE.png
+  artifactKey: Guid(f07ce6e6041ec3b458dd9f5848c42a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Map Tiles (Kenney)/Isometric/crops_dirtDoubleRowCorner_SE.png using Guid(f07ce6e6041ec3b458dd9f5848c42a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b1d9b9003c2e5baa85159450e65130d4') in 0.008810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Imported/Map Tiles (Kenney)/Isometric/crops_dirtDoubleRowEnd_NE.png
+  artifactKey: Guid(7c6be8cc2c1ca894ab530230cc1fad51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Map Tiles (Kenney)/Isometric/crops_dirtDoubleRowEnd_NE.png using Guid(7c6be8cc2c1ca894ab530230cc1fad51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1b8dc466530a0fcd11d64b4954e63612') in 0.008452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Imported/Map Tiles (Kenney)/Isometric/crops_dirtDoubleRowEnd_SE.png
+  artifactKey: Guid(bcf69b2af8fc8384285b55be6c499971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Map Tiles (Kenney)/Isometric/crops_dirtDoubleRowEnd_SE.png using Guid(bcf69b2af8fc8384285b55be6c499971) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0394669f55e43637535bb6d7dcff50fa') in 0.008126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Imported/Map Tiles (Kenney)/Isometric/crops_dirtRow_NE.png
+  artifactKey: Guid(11e15e585bd9cc843ad4ee532f5bdea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Map Tiles (Kenney)/Isometric/crops_dirtRow_NE.png using Guid(11e15e585bd9cc843ad4ee532f5bdea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '67b3ddd60b7f1564bcb4b9facc27f0f8') in 0.010689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Imported/Map Tiles (Kenney)/Isometric/crops_dirtDoubleRowCorner_SW.png
+  artifactKey: Guid(bb9bc35245d26f646a0fec88e5be2c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Map Tiles (Kenney)/Isometric/crops_dirtDoubleRowCorner_SW.png using Guid(bb9bc35245d26f646a0fec88e5be2c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '428c8e355819c34f7d4b4b15c7cd9df8') in 0.009083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Imported/Map Tiles (Kenney)/Isometric/crops_cornStageD_SE.png
+  artifactKey: Guid(3edb4f5cd25d6274da320702458f4c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Map Tiles (Kenney)/Isometric/crops_cornStageD_SE.png using Guid(3edb4f5cd25d6274da320702458f4c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a352643dd231efb19d484cba40367545') in 0.007799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Imported/Map Tiles (Kenney)/Isometric/crops_dirtRow_NW.png
+  artifactKey: Guid(a656d5b8d0fdae64299d4d6bd19adda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Map Tiles (Kenney)/Isometric/crops_dirtRow_NW.png using Guid(a656d5b8d0fdae64299d4d6bd19adda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd67a7b94083ec3e5f36cce77d030c351') in 0.008437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Imported/Map Tiles (Kenney)/Isometric/crops_dirtDoubleRowEnd_NW.png
+  artifactKey: Guid(9092126bf8e76f248be1609ec4e28b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/Map Tiles (Kenney)/Isometric/crops_dirtDoubleRowEnd_NW.png using Guid(9092126bf8e76f248be1609ec4e28b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8b0e9752f93c556cb13b5ae5eaa31246') in 0.009918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 43.571700 seconds.
+  path: Assets/Imported/RPGPP_LT/Materials/rpgpp_lt_cloud_a.mat
+  artifactKey: Guid(434bfd6528d84e643ade0d2cd5c6fe1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported/RPGPP_LT/Materials/rpgpp_lt_cloud_a.mat using Guid(434bfd6528d84e643ade0d2cd5c6fe1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0e58297d9a10058f710c83fada7bf70f') in 0.031785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.900406 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop Step/Farm_Crop_Broccoli_Step_01.prefab
+  artifactKey: Guid(e320f6a030aee824bb57e27031ae774e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop Step/Farm_Crop_Broccoli_Step_01.prefab using Guid(e320f6a030aee824bb57e27031ae774e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bbf65c4b927e13ccdd5c373d62fe55b2') in 0.016649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop Step/Farm_Crop_Cauliflower_Step_01.prefab
+  artifactKey: Guid(d8449dba764bea44ab90269de06a50d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop Step/Farm_Crop_Cauliflower_Step_01.prefab using Guid(d8449dba764bea44ab90269de06a50d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '92ed7b149eecdebe53f89d031e008930') in 0.009735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop Step/Farm_Crop_Corn_Step_03.prefab
+  artifactKey: Guid(530671a6dcce5b84992a7417b0d91c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop Step/Farm_Crop_Corn_Step_03.prefab using Guid(530671a6dcce5b84992a7417b0d91c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '46bd1b13bcc03f192d612ed161cd35fa') in 0.013416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop Step/Farm_Crop_Sunflower_Step_01.prefab
+  artifactKey: Guid(0078b9131652b014992393af8523ccbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop Step/Farm_Crop_Sunflower_Step_01.prefab using Guid(0078b9131652b014992393af8523ccbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '902086cb71fdf69cc1f4fc763f5a95aa') in 0.009231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop Step/Farm_Crop_Corn_Step_02.prefab
+  artifactKey: Guid(ff4ed0f60d4a5a54b9b1a0b2fad77c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop Step/Farm_Crop_Corn_Step_02.prefab using Guid(ff4ed0f60d4a5a54b9b1a0b2fad77c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '621a30f7a1edbb982b1006275963f7be') in 0.009152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop Step/Farm_Crop_Sunflower_Step_02.prefab
+  artifactKey: Guid(8f310ba589526d142839442e3eb756d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop Step/Farm_Crop_Sunflower_Step_02.prefab using Guid(8f310ba589526d142839442e3eb756d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '20e6c7a060f4d247820088b1aafa7911') in 0.010313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop Step/Farm_Crop_Mashroom_02_Step_01.prefab
+  artifactKey: Guid(81deb2d587bf15041867526f766c512c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop Step/Farm_Crop_Mashroom_02_Step_01.prefab using Guid(81deb2d587bf15041867526f766c512c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5b9fdeec6746855c24941c85911650b7') in 0.008764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop Step/Farm_Crop_Sunflower_Dead.prefab
+  artifactKey: Guid(88d03ea1b6037fb4d90a14cd7a2c9893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop Step/Farm_Crop_Sunflower_Dead.prefab using Guid(88d03ea1b6037fb4d90a14cd7a2c9893) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3899c42c7b9b85d20b5702a68cfb5fc6') in 0.009479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 5.422196 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Plant/Plant_Pine_01A.prefab
+  artifactKey: Guid(9db7bc57225a7484d86ef92ac21e392d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Plant/Plant_Pine_01A.prefab using Guid(9db7bc57225a7484d86ef92ac21e392d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '977f89553c38bb9b7813723215d3ea1f') in 0.009381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Plant/Plant_Pine_Ice_01A.prefab
+  artifactKey: Guid(9d32c037678352248a82bc910265111a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Plant/Plant_Pine_Ice_01A.prefab using Guid(9d32c037678352248a82bc910265111a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b03f51cd856c5097b68ad711242176b5') in 0.007889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 6.543900 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop/Farm_Crop_Carrot_01.prefab
+  artifactKey: Guid(da30c56b3f093764d9d473da3bb794ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop/Farm_Crop_Carrot_01.prefab using Guid(da30c56b3f093764d9d473da3bb794ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3f25291bc199da372abb4449ef803cf7') in 0.009826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop/Farm_Crop_Sunflower_01.prefab
+  artifactKey: Guid(e7997aa72a2f37e48a05b60f2afb554a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop/Farm_Crop_Sunflower_01.prefab using Guid(e7997aa72a2f37e48a05b60f2afb554a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8522abbd4f47b54de641ad6c4a7de662') in 0.008397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 91.113897 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop/Farm_Crop_Carrot_01.prefab
+  artifactKey: Guid(da30c56b3f093764d9d473da3bb794ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop/Farm_Crop_Carrot_01.prefab using Guid(da30c56b3f093764d9d473da3bb794ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8999f58f7b5be14e645c4baa3baa72a4') in 0.010584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop/Farm_Crop_Mashroom_02.prefab
+  artifactKey: Guid(1392fd565ad036744b2d2216f6eb0121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop/Farm_Crop_Mashroom_02.prefab using Guid(1392fd565ad036744b2d2216f6eb0121) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8ce454ed1d3b29cbc979238a4cdf5d17') in 0.010392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop/Farm_Crop_Sunflower_01.prefab
+  artifactKey: Guid(e7997aa72a2f37e48a05b60f2afb554a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetHunts!/GameDev Starter Kit - Farming/Asset/Farm Crop/Farm_Crop_Sunflower_01.prefab using Guid(e7997aa72a2f37e48a05b60f2afb554a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '083c317bc80679a79f1490bc0ec6449c') in 0.009676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
