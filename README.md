@@ -2,6 +2,7 @@
 The final project game for NKKM
 
 [WebGL Build](https://play.unity.com/en/games/dffc6589-99a2-4129-8264-a3f091560e40/webgl-builds)
+[Windows Build](https://drive.google.com/drive/folders/1CQmr9abEF1p1-R2iHnUOpJmwaTLqNgNk?usp=sharing)
 
 ![Game Screenshot](Documentation/screenshot.png)
 
