@@ -1,6 +1,8 @@
 # FarmingGame
 The final project game for NKKM
 
+[WebGL Build](https://play.unity.com/en/games/dffc6589-99a2-4129-8264-a3f091560e40/webgl-builds)
+
 ![Game Screenshot](Documentation/screenshot.png)
 
 ### The Goal
