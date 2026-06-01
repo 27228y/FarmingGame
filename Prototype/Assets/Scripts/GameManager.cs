@@ -5,10 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    [Header("UI References")]
     public RectTransform gameOverScreen;
     public RectTransform winScreen;
+    
+    [Header("Other References")]
     public PlayerController playerController;
     public Npc[] npcs;
+
+    private bool isGameResultDecided = false;
     
     public static GameManager Instance { get; private set; }
 
@@ -18,10 +23,16 @@ public class GameManager : MonoBehaviour
         {
             Instance = this;
         }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
-    void Update()
+    public void CheckVictoryCondition()
     {
+        if (isGameResultDecided) return;
+
         foreach (Npc npc in npcs)
         {
             if (!npc.healed)
@@ -29,14 +40,34 @@ public class GameManager : MonoBehaviour
                 return;
             }
         }
+
+        TriggerWin();
+    }
+
+    private void TriggerWin()
+    {
+        if (isGameResultDecided) return;
         
+        isGameResultDecided = true;
         winScreen.gameObject.SetActive(true);
+
+        if (playerController != null)
+        {
+            playerController.cantMove = true;
+        }
     }
 
     public void GameOver()
     {
+        if (isGameResultDecided) return;
+        
+        isGameResultDecided = true;
         gameOverScreen.gameObject.SetActive(true);
-        playerController.cantMove = true;
+
+        if (playerController != null)
+        {
+            playerController.cantMove = true;
+        }
     }
     
     public void ReloadScene()

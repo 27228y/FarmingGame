@@ -13,7 +13,6 @@ public class Npc : MonoBehaviour
     public TextMeshProUGUI uiText;
     public PlayerController player;
     public RectTransform healthBar;
-    public RectTransform healthBarBg;
     
     [Header("Settings")]
     public int reward = 10;
@@ -41,6 +40,7 @@ public class Npc : MonoBehaviour
     private float hp = 100f;
     private Vector2 defaultScale;
     [HideInInspector] public bool healed = false;
+    private bool isDead = false;
     
     void Start()
     {
@@ -57,14 +57,22 @@ public class Npc : MonoBehaviour
 
     void Update()
     {
-        if (player.interactionDistance * 1.2f >= Vector3.Distance(transform.position, player.transform.position))
+        float distanceToPlayer = Vector3.Distance(transform.position, player.transform.position);
+        
+        if (player.interactionDistance * 1.2f >= distanceToPlayer)
         {
             npcCanvas.enabled = true;
             closeToPlayer = true;
             agent.isStopped = true;
             
-            Quaternion targetRotation = Quaternion.LookRotation(player.transform.position - transform.position);
-            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * 3);
+            Vector3 lookDirection = player.transform.position - transform.position;
+            lookDirection.y = 0;
+            
+            if (lookDirection.sqrMagnitude > 0.001f)
+            {
+                Quaternion targetRotation = Quaternion.LookRotation(lookDirection);
+                transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * 3);
+            }
         }
         else
         {
@@ -100,6 +108,10 @@ public class Npc : MonoBehaviour
         {
             uiText.text = thanksPhrase;
             healed = true;
+            agent.isStopped = false;
+            
+            GameManager.Instance.CheckVictoryCondition();
+            
             
             return true;
         }
@@ -179,7 +191,7 @@ public class Npc : MonoBehaviour
 
     private void changeHealth()
     {
-        if (healed) return;
+        if (healed || isDead) return;
         
         float damagePerSecond = maxHp / liveTime;
         hp -= damagePerSecond * Time.deltaTime;
@@ -187,9 +199,10 @@ public class Npc : MonoBehaviour
         if (hp <= 0f)
         {
             GameManager.Instance.GameOver();
+            agent.isStopped = true;
+            isDead = true;
+            hp = 0;
         }
-        
-        hp = Mathf.Clamp(hp, 0f, maxHp);
 
         UpdateHealthUI();
     }

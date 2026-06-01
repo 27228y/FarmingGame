@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     public KeyCode interactKey = KeyCode.E;
     public LayerMask interactableLayer;
     public Animator animator;
+    public InventoryUI inventoryUI;
 
     [Header("UI Elements")]
     public MerchantUIController merchantUIWindow;
@@ -31,6 +32,8 @@ public class PlayerController : MonoBehaviour
         myInventory = GetComponent<Inventory>();
         model = transform.GetChild(0);
         audioSource = GetComponent<AudioSource>();
+        
+        inventoryUI.UpdateInventoryDisplay();
     }
     
     void Update()
@@ -109,15 +112,15 @@ public class PlayerController : MonoBehaviour
 
     void HandleInteraction()
     {
-        // Sound effect
-        audioSource.PlayOneShot(interactSound);
-        
         // Logic
         if (currentTarget == null)
         {
             return;
         }
-
+        
+        // Sound effect
+        audioSource.PlayOneShot(interactSound);
+        
         if (currentTarget.TryGetComponent(out BouncyObject obj))
         {
             obj.PlayBounceAnimation();
@@ -185,11 +188,14 @@ public class PlayerController : MonoBehaviour
                 {
                     myInventory.RemoveSelectedItem();
                     myInventory.money += npc.reward;
+                    inventoryUI.UpdateInventoryDisplay();
                     
                     audioSource.PlayOneShot(completeSound);
                 }
             }
         }
+        
+        inventoryUI.UpdateInventoryDisplay();
     }
 
     public void CloseShop()
@@ -205,8 +211,17 @@ public class PlayerController : MonoBehaviour
     void HandleSelection()
     {
         float scroll = Input.GetAxis("Mouse ScrollWheel");
-        if (scroll > 0f) myInventory.ChangeSelection(-1);
-        if (scroll < 0f) myInventory.ChangeSelection(1);
+        if (scroll > 0f)
+        {
+            myInventory.ChangeSelection(-1);
+            inventoryUI.UpdateInventoryDisplay();
+        }
+
+        if (scroll < 0f)
+        {
+            myInventory.ChangeSelection(1);
+            inventoryUI.UpdateInventoryDisplay();
+        }
     }
     
     private void OnDrawGizmosSelected()

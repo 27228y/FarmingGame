@@ -10,17 +10,20 @@ public class Cauldron : MonoBehaviour
     [Header("References")]
     public Sprite defaultPotionIcon;
     public Renderer liquidRenderer;
+    public ParticleSystem splashParticleSystem;
     public Transform spawnPoint;
     public GameObject potionPrefab;
     
     private List<Item> ingredients = new List<Item>();
+    private MaterialPropertyBlock propBlock;
+    private int baseColorShaderId;
 
     void Start()
     {
-        MaterialPropertyBlock propBlock = new MaterialPropertyBlock();
-        liquidRenderer.GetPropertyBlock(propBlock);
-        propBlock.SetColor("_BaseColor", waterColor);
-        liquidRenderer.SetPropertyBlock(propBlock);
+        propBlock = new MaterialPropertyBlock();
+        baseColorShaderId = Shader.PropertyToID("_BaseColor");
+        
+        UpdateLiquidColor(waterColor);
     }
 
     public void AddIngredient(Item item)
@@ -30,21 +33,8 @@ public class Cauldron : MonoBehaviour
         ingredients.Add(item);
         
         if (liquidRenderer == null) return;
-        
-        float r = 0, g = 0, b = 0;
-        foreach (Item i in ingredients)
-        {
-            r += i.itemColor.r;
-            g += i.itemColor.g;
-            b += i.itemColor.b;
-        }
-        
-        Color mixedColor = new Color(r / ingredients.Count, g / ingredients.Count, b / ingredients.Count);
-        
-        MaterialPropertyBlock propBlock = new MaterialPropertyBlock();
-        liquidRenderer.GetPropertyBlock(propBlock);
-        propBlock.SetColor("_BaseColor", mixedColor);
-        liquidRenderer.SetPropertyBlock(propBlock);
+
+        UpdateLiquidColor(CalculateAverageColor());
     }
 
     public void FinishCooking()
@@ -79,9 +69,35 @@ public class Cauldron : MonoBehaviour
         
         ingredients.Clear();
         
-        MaterialPropertyBlock propBlock = new MaterialPropertyBlock();
+        UpdateLiquidColor(waterColor);
+    }
+
+    private void UpdateLiquidColor(Color targetColor)
+    {
+        if (liquidRenderer == null) return;
+        
         liquidRenderer.GetPropertyBlock(propBlock);
-        propBlock.SetColor("_BaseColor", waterColor);
+        propBlock.SetColor(baseColorShaderId, targetColor);
         liquidRenderer.SetPropertyBlock(propBlock);
+        
+        if (splashParticleSystem == null) return;
+        
+        var mainModule = splashParticleSystem.main;
+        mainModule.startColor = targetColor;
+    }
+
+    private Color CalculateAverageColor()
+    {
+        if (ingredients.Count == 0) return waterColor;
+
+        float r = 0, g = 0, b = 0;
+        foreach (Item i in ingredients)
+        {
+            r += i.itemColor.r;
+            g += i.itemColor.g;
+            b += i.itemColor.b;
+        }
+        
+        return new Color(r / ingredients.Count, g / ingredients.Count, b / ingredients.Count, 1.0f);
     }
 }

@@ -23,18 +23,17 @@ public class InventoryUI : MonoBehaviour
         }
     }
 
-    void Update()
-    {
-        UpdateInventoryDisplay();
-    }
-
     public void UpdateInventoryDisplay()
     {
+        if (playerInventory == null) return;
+        
         moneyText.text = $"{playerInventory.money} $";
         
         for (int i = 0; i < visualSlots.Count; i++)
         {
             InventorySlotUI slot = visualSlots[i];
+            
+            if (slot == null) continue;
 
             if (slot.selectionFrame != null)
             {
@@ -45,17 +44,11 @@ public class InventoryUI : MonoBehaviour
             {
                 Item data = playerInventory.slots[i].itemData;
 
-                if (slot.itemIconImage != null && data.uiIcon != null)
+                if (slot.itemIconImage != null && data != null && data.uiIcon != null)
                 {
                     slot.itemIconImage.sprite = data.uiIcon;
-                    if (data.itemName == "Potion")
-                    {
-                        slot.itemIconImage.color = data.itemColor;
-                    }
-                    else
-                    {
-                        slot.itemIconImage.color = Color.white;
-                    }
+                    
+                    slot.itemIconImage.color = (data.itemName == "Potion") ? data.itemColor : Color.white;
                     slot.itemIconImage.gameObject.SetActive(true);
                 }
 
